@@ -1,5 +1,7 @@
 # 4swap-sync-demo
 
+## Intro
+
 A simple demo of getting the [uniwap v2](https://docs.uniswap.org/protocol/V2/introduction) events from specific endpoint and contract.
 
 These events include two parts,
@@ -35,3 +37,11 @@ Tested on node versions `v16.14.2` and `v17.6.0`.
 3. Run `node subscribe.js <endpoint> <contract_address>`.
 
 Node: the endpoint can be in `ws(s)` or `http(s)` format, for WebSocket will continuously print the latest events, HTTP not.
+
+## Contract Info
+
+ETH Endpoint (RPC API): http://104.197.245.214:8545
+Contract: 0x0A8a0058763A68E7f50A40356d050090E0D386F4
+Chain ID: 83927
+Block Browser: https://testnet.mvmscan.com/address/0x0A8a0058763A68E7f50A40356d050090E0D386F4/transactions
+
