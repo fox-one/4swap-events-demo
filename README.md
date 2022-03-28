@@ -23,7 +23,7 @@ event Swap(
         uint amount1Out,
         address indexed to
     );
-    event Sync(uint112 reserve0, uint112 reserve1);
+event Sync(uint112 reserve0, uint112 reserve1);
 ```
 
 ## Run
@@ -33,3 +33,5 @@ Tested on node versions `v16.14.2` and `v17.6.0`.
 1. Clone the project and enter it.
 2. Run `npm install` to install dependencies.
 3. Run `node subscribe.js <endpoint> <contract_address>`.
+
+Node: the endpoint can be in `ws(s)` or `http(s)` format, for WebSocket will continuously print the latest events, HTTP not.
