@@ -40,8 +40,8 @@ Node: the endpoint can be in `ws(s)` or `http(s)` format, for WebSocket will con
 
 ## Contract Info
 
-ETH Endpoint (RPC API): http://104.197.245.214:8545
-Contract: 0x0A8a0058763A68E7f50A40356d050090E0D386F4
-Chain ID: 83927
-Block Browser: https://testnet.mvmscan.com/address/0x0A8a0058763A68E7f50A40356d050090E0D386F4/transactions
+- ETH Endpoint (RPC API): http://104.197.245.214:8545
+- Contract: 0x0A8a0058763A68E7f50A40356d050090E0D386F4
+- Chain ID: 83927
+- Block Browser: https://testnet.mvmscan.com/address/0x0A8a0058763A68E7f50A40356d050090E0D386F4/transactions
 
